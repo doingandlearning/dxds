@@ -8,7 +8,7 @@ For each component, I want to create an educational rationale, the component its
 
 | Component | Blog Post | Astro | Web component |
 | -- | -- |-- |-- |
-| Prior Knowledge | [Post](https://kevincunningham.co.uk/posts/prior-knowledge) | [Astro component](/components/Astro/Precheck.astro) | TODO |
+| Prior Knowledge | [Post](https://kevincunningham.co.uk/posts/prior-knowledge) | [Astro component](/components/Astro/Precheck.astro) | [Web component](/components//WebComponent/Precheck.js) |
 | Embedded Code Editor | [Post](https://www.kevincunningham.co.uk/posts/on-embedding-code-editors) | TODO | TODO |
 | Spoiler | [Initial Post](https://www.kevincunningham.co.uk/posts/spoiler-element) | TODO | TODO |
 | Quiz | TODO | TODO | TODO |
