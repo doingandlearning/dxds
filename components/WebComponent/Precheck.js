@@ -1,18 +1,10 @@
 customElements.define('pre-check', class extends HTMLElement {
-	// create an element that takes two properties: intro and outro
-	// it will render with the intro property
-	// it also renders the slot content in the middle
-	// it will render with the outro property
-
-	// this is the constructor
 	constructor() {
 		super();
-		// create a shadow root
 		this.attachShadow({ mode: 'open' });
 
 		this.intro = this.getAttribute('intro') || "Before we begin, please check the following:";
 		this.outro = this.getAttribute('outro') || "Let's dive in!";
-		// set the shadow root's innerHTML
 		this.shadowRoot.innerHTML = `
 			<style>
 			:root {
